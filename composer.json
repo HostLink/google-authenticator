@@ -1,0 +1,20 @@
+{
+    "name": "hostlink/google-authenticator",
+    "description": "Google authenticator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymond Chong",
+            "email": "mathsgod@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\Google\\Authenticator\\": "src"
+        }
+    }
+}
